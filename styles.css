@@ -3,3 +3,10 @@
     padding: unset;
     box-sizing: border-box;
 }
+
+main{
+    min-height: 100vh;
+}
+aside{
+ 
+}
