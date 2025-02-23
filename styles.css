@@ -26,9 +26,18 @@ aside {
 }
 
 .branding {
-    outline: 1px solid red;
     display: grid;
     grid-template-columns: 75px 1fr;
     align-items: center;
     padding: 1rem;
+}
+.side-nav {
+    display: grid;
+    gap: 20px;
+}
+.nav-item {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 20px;
 }
