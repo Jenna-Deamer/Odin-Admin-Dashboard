@@ -31,9 +31,14 @@ aside {
     align-items: center;
     padding: 1rem;
 }
-.side-nav {
+.primary-nav,
+.secondary-nav {
     display: grid;
     gap: 20px;
+}
+.primary-nav {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 .nav-item {
     display: flex;
