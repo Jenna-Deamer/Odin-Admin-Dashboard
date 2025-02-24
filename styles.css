@@ -154,8 +154,10 @@ aside {
 }
 
 .announcements{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 20px;
+}
+.cardContainer{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .announcementCard:first-of-type{
     border-radius: 10px 10px 0 0;
@@ -169,3 +171,9 @@ aside {
     padding: 1rem;
 }
 
+.trendingCard:first-of-type{
+    border-radius: 10px 10px 0 0;
+}
+.trendingCard:last-of-type{
+    border-radius: 0 0  10px 10px;
+}
