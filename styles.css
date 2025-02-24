@@ -17,12 +17,14 @@ header {
     grid-template-columns: 4fr 2fr;
     padding: 1rem 2rem;
 }
+
 .searchBarContainer {
     display: grid;
     grid-template-columns: 40px 1fr;
     align-items: center;
     margin-bottom: 1.5rem;
 }
+
 .searchBar {
     background-color: #e9e9e9;
     border-radius: 20px;
@@ -39,6 +41,7 @@ header {
     margin-bottom: 1.5rem;
     gap: 20px;
 }
+
 .userControls img {
     width: 30px;
 }
@@ -49,15 +52,17 @@ header {
     gap: 10px;
     align-items: center;
 }
+
 .userProfile div {
     grid-row: 1 / 5;
 }
+
 .profileImage {
     grid-row: 1 / 5;
     width: 100%;
-
     border-radius: 100%;
 }
+
 .contentButtons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,6 +70,7 @@ header {
     justify-items: center;
     max-width: 400px;
 }
+
 .contentButtons button {
     background-color: #1992d4;
     color: #fff;
@@ -75,6 +81,7 @@ header {
     border: none;
     font-weight: 600;
 }
+
 /*Sidebar*/
 aside {
     background-color: #1992d4;
@@ -88,15 +95,18 @@ aside {
     align-items: center;
     padding: 1rem;
 }
+
 .primary-nav,
 .secondary-nav {
     display: grid;
     gap: 20px;
 }
+
 .primary-nav {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
+
 .nav-item {
     display: flex;
     justify-content: left;
@@ -120,20 +130,22 @@ aside {
     outline: 1px solid red;
 }
 
-.projectsSidebar{
+.projectsSidebar {
     display: grid;
     outline: 1px solid blue;
 }
+
 .projects h2 {
     grid-column: 1 / -1;
 }
 
 .projects h2,
 .announcements h2,
-.trending h2{
+.trending h2 {
     margin-bottom: 4px;
     height: auto;
 }
+
 .projectCard {
     background-color: #fff;
     padding: 1rem;
@@ -142,38 +154,56 @@ aside {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.projectCard:not(:last-of-type){
-        margin-bottom: 40px;
+.projectCard:not(:last-of-type) {
+    margin-bottom: 40px;
 }
 
-.projectCardFooter{
+.projectCardFooter {
     display: flex;
     justify-content: end;
     margin-top: 1rem;
     gap: 10px;
 }
 
-.announcements{
+.announcements {
     margin-bottom: 20px;
 }
-.cardContainer{
+
+.cardContainer {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.announcementCard:first-of-type{
+
+.announcementCard:first-of-type {
     border-radius: 10px 10px 0 0;
 }
-.announcementCard:last-of-type{
-    border-radius: 0 0  10px 10px;
+
+.announcementCard:last-of-type {
+    border-radius: 0 0 10px 10px;
 }
+
 .announcementCard,
-.trendingCard{
+.trendingCard {
     background-color: #fff;
     padding: 1rem;
 }
 
-.trendingCard:first-of-type{
+.trendingCard {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.trendingCard img {
+    grid-row: 1 / 5;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+.trendingCard p{
+    font-weight: 300;
+}
+.trendingCard:first-of-type {
     border-radius: 10px 10px 0 0;
 }
-.trendingCard:last-of-type{
-    border-radius: 0 0  10px 10px;
+
+.trendingCard:last-of-type {
+    border-radius: 0 0 10px 10px;
 }
