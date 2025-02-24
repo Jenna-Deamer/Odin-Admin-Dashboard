@@ -50,10 +50,19 @@ header {
 
 .userProfile {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.userProfile div {
+    grid-row: 1 / 5;
 }
 .profileImage {
-    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    outline: 1px solid black;
+    width: 100%;
+
+    border-radius: 100%;
 }
 /*Sidebar*/
 aside {
