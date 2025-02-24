@@ -16,7 +16,6 @@ main {
 
 /*Header*/
 header {
-    border: 1px solid blue;
     grid-column: 2/-1;
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -42,6 +41,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.5rem;
     gap: 20px;
 }
 .userControls img {
@@ -59,10 +59,26 @@ header {
 }
 .profileImage {
     grid-row: 1 / 5;
-    outline: 1px solid black;
     width: 100%;
 
     border-radius: 100%;
+}
+.contentButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    max-width: 400px;
+}
+.contentButtons button {
+    background-color: #1992d4;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
 }
 /*Sidebar*/
 aside {
