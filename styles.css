@@ -131,6 +131,7 @@ aside {
     padding: 1rem;
     border-left: 8px #f0b52c solid;
     border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .projectsSidebar h2{
@@ -139,9 +140,17 @@ aside {
 .announcements{
     border-radius: 18px;
     margin-bottom: 4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.announcementCard{
+.announcementCard:first-of-type{
+    border-radius: 10px 10px 0 0;
+}
+.announcementCard:last-of-type{
+    border-radius: 0 0  10px 10px;
+}
+.announcementCard,
+.trendingCard{
     background-color: #fff;
     padding: 1rem;
   
